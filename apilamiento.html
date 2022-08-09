@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+           
+        }
+       .card{
+           width: 600px;
+           height: 600px;
+           background: whitesmoke;
+           border-radius: 1cm;
+           box-shadow: 5px 5px darkgray;
+           display: flex;
+           justify-content: space-between;
+           overflow: hidden;
+       }
+       #tri  {
+        background-color: black;
+	    clip-path: polygon(0% 100%, 0% 0%, 100% 0%);
+	    width: 300px;
+	    height: 300px;
+       }
+       
+       #tri img{
+           z-index: 4;
+           border-radius: 200px;
+           width: 130px;
+           overflow: hidden;
+           height: 130px;
+           margin-top: 10px;
+           margin-left: 8px;
+           border-color: white;
+           border-width: 5px;
+           border-style:double
+           
+       }
+           
+       .bar{
+           background:black;
+           height: 100%;
+           width: 270px;
+           display: flex;
+           justify-content: center;     
+                           
+       }
+       
+       .card img{
+        width: 70px;
+        height: 70px;
+        align-self:flex-end ;
+        justify-content:left;
+       }
+
+       .font {
+        color: aliceblue;
+        width: 200px;
+        height: 80px;
+        font-size:large;
+        align-self: center;  
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 0;
+        justify-content: center;
+        border: 0;
+        background-image: url('somewhere.jpg');
+        background-repeat: no-repeat;
+        
+        display: block;  
+        margin-top:10px  ;
+       }
+       .font img{
+        width: 20px;
+        height: 20px;
+       }
+       
+       .create { 
+        background-image: url('somewhere.jpg');
+        background-repeat: no-repeat;
+        padding-left: 0px;
+        display: block;  
+        margin-top:10px  ;
+        
+    }
+
+    .create img{
+        width: 20px;
+        height: 20px;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <section>
+        
+        <div class="card"> 
+            <div id="tri">
+                
+                <img src="https://images.pexels.com/photos/6347898/pexels-photo-6347898.jpeg?auto=compress&cs=tinysrgb&w=600" alt="tri">
+                
+            </div>
+            
+            <img src="pngwing.com.png" alt="card">
+            
+            <img src="pngwing2.com.png" alt="card">
+            
+            <div class="bar" >
+                <h1 class="font"><img src="fffff.png" alt="font"> Julian Cuervo Gil
+                    <div class="create">
+                        <a href="https://github.com/JulianC-g"><img src="xd.com.png" alt="create"></a>
+                        
+                        
+                        Bogota, Colombia
+                    
+                    </div>
+                    <div></div>
+                </h1>
+            </div>
+            </div>
+            
+        </div>
+            
+    </section>
+        
+</body>
+</html>
